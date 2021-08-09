@@ -35,5 +35,7 @@ line_function = np.poly1d(z)
 plt.plot(df.CocoaPercentage, line_function(df.CocoaPercentage), "r--")
 
 plt.xlabel('Cocoa Percentage')
+
 plt.ylabel('Chocolate Rating')
+
 plt.show()
